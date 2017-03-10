@@ -37,7 +37,7 @@ const db = mongoose.connection;
 
 server.connection({  
   port: process.env.PORT,
-  routes: { cors: true }
+  routes: { cors: false }
 });
 
 server.register(require('inert'), (err) => {  
