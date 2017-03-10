@@ -2,7 +2,7 @@ const Hapi     = require('hapi');
 const server   = new Hapi.Server();  
 const routes   = require('./routes');  
 const mongoose = require('mongoose');  
-const mongoUri = process.env.MONGOURI;  
+const mongoUri = 'mongodb://<dbuser>:<dbpassword>@ds145359.mlab.com:45359/bilshort';  
 // If you're testing this locally, change mongoUri to:
 // 'mongodb://localhost:27017/shortio'
 
