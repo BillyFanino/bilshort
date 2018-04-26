@@ -2,7 +2,7 @@ const Hapi     = require('hapi');
 const server   = new Hapi.Server();  
 const routes   = require('./routes');  
 const mongoose = require('mongoose');  
-const mongoUri = process.env.MONGOLAB_URI || 'mongodb://copzslowdown:Akuganteng123@ds145359.mlab.com:45359/bilshort';  
+const mongoUri = process.env.MONGOLAB_URI || 'mongodb://copz:ssmaju123@ds145359.mlab.com:45359/bilshort';  
 // If you're testing this locally, change mongoUri to:
 // 'mongodb://localhost:27017/shortio'
 
